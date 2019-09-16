@@ -1,3 +1,6 @@
+service:
+  # When updating this, also update bin/linters.sh accordingly
+  golangci-lint-version: 1.18.0 # use the fixed version to not introduce new linters unexpectedly
 run:
   concurrency: 4
   deadline: 10m
