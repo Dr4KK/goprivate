@@ -9,6 +9,6 @@ func HelloWorld() string {
 	return Greeting
 }
 
-func main()  {
+func main() {
 	fmt.Println("hahah")
 }
