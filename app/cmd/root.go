@@ -9,6 +9,7 @@ import (
 	"github.com/spf13/viper"
 )
 
+// RootCmd the root cmd
 var RootCmd = &cobra.Command{
 	Use:   "hugo",
 	Short: "Hugo is a very fast static site generator",
